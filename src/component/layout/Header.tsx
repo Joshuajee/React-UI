@@ -35,7 +35,7 @@ const Header = () => {
                             return (
                                 <Link 
                                     className={`${path === item.path && styles.active}`}
-                                    key={index} 
+                                    key={index} onClick={() => setShow(false)}
                                     to={item.path}> 
                                     {item.title} 
                                 </Link>)

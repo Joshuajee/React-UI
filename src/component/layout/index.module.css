@@ -54,3 +54,12 @@
     padding-left: 0px;
     padding: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .menu_items {
+        border-bottom-left-radius: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+}

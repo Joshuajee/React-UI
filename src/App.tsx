@@ -7,6 +7,7 @@ import Rotated from './pages/rotated';
 import { ROUTES } from './libs/routes';
 import Glowing from './pages/glowing';
 import Marketing from './pages/marketing';
+import Bubbles from './pages/bubbles';
 
 AOS.init();
 
@@ -19,6 +20,7 @@ function App() {
           <Route path={ROUTES.ROTATED} element={<Rotated />} />
           <Route path={ROUTES.GLOWING} element={<Glowing />} />
           <Route path={ROUTES.MARKETING} element={<Marketing />} />
+          <Route path={ROUTES.BUBBLES} element={<Bubbles />} />
         </Routes>
       </Layout>
     </BrowserRouter>

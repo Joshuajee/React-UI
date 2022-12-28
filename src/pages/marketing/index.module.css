@@ -1,0 +1,21 @@
+.parent {
+    height: 100vh;
+    background-image: linear-gradient(90deg, #f43b47, #453a94);
+    text-align: center;
+    font-weight: 700;
+}
+
+.parent h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .parent {
+        min-height: 100vh;
+        max-height: max-content;
+    }
+
+}

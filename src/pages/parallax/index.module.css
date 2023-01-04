@@ -1,0 +1,66 @@
+
+
+.bg_image {
+    height: 90vh;
+    width: 1700px;
+}
+
+.content {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 70px;
+    -webkit-text-stroke: 1px black;
+}
+
+.content h3 {
+    font-size: 17px;
+}
+
+.content button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+}
+
+.content button:hover {
+    background-color: tomato;
+}
+
+.section2 {
+    color: rgb(50, 89, 90);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #ff5500;
+    padding-bottom: 50px;
+}
+
+.footer p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer h4 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.footer .border {
+    height: 2px;
+    border: 1px dashed black;
+    margin: 20px 50px;
+}

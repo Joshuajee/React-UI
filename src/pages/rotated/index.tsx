@@ -1,5 +1,5 @@
 import "@lottiefiles/lottie-player";
-import styles from "./index.module.css"
+import styles from "./index.module.css";
 
 const Rotated = () => {
 

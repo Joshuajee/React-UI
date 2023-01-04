@@ -8,8 +8,9 @@ import { ROUTES } from './libs/routes';
 import Glowing from './pages/glowing';
 import Marketing from './pages/marketing';
 import Bubbles from './pages/bubbles';
+import ParallaxPage from './pages/parallax';
 
-AOS.init();
+AOS.init({ duration: 1000 });
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path={ROUTES.GLOWING} element={<Glowing />} />
           <Route path={ROUTES.MARKETING} element={<Marketing />} />
           <Route path={ROUTES.BUBBLES} element={<Bubbles />} />
+          <Route path={ROUTES.PARALLAX} element={<ParallaxPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

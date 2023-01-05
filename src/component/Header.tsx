@@ -3,7 +3,7 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi"
 import { AiOutlineClose } from "react-icons/ai"
 import { useState } from "react"
 import styles from "./index.module.css"
-import { ROUTES } from "../../libs/routes"
+import { ROUTES } from "../libs/routes"
 
 const menuItems = [
     {   title: "Home",  path: ROUTES.HOME  },
@@ -12,7 +12,7 @@ const menuItems = [
     {   title: "Marketing",  path: ROUTES.MARKETING   },
     {   title: "Bubbles",  path: ROUTES.BUBBLES   },
     {   title: "Parallax",  path: ROUTES.PARALLAX   },
-    {   title: "Starbucks",  path: ROUTES.STARBUCKS   },
+    {   title: "Coffee Shop",  path: ROUTES.COFFEE_SHOP   },
     {   title: "Cars Platform",  path: ROUTES.CARS   }
 ]
 

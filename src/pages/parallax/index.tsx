@@ -37,7 +37,12 @@ const ParallaxPage = () => {
 
                 <div className="container">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue mollis tortor, sed laoreet lorem volutpat nec. Vivamus rutrum lacus est, convallis placerat diam porttitor tincidunt. Etiam elementum auctor velit, at faucibus magna dapibus id. Nam molestie ipsum in sem rutrum porta. Nulla facilisi. Fusce id metus id dolor pulvinar faucibus a quis purus. Nulla aliquet quam eu elit cursus posuere. Quisque sit amet ex consectetur, varius arcu eget, luctus justo. Ut at mi ac tellus lacinia dignissim vel rhoncus felis. Fusce pharetra bibendum imperdiet. Donec mollis risus pellentesque elit dictum porta. Etiam non nisi sit amet velit tincidunt viverra ac ac nisi. Sed cursus, est ac porta tempus, mauris ex commodo lectus, et tincidunt arcu turpis id nisl. Cras cursus dui at pretium egestas. Nam tincidunt augue a justo pellentesque tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed congue mollis tortor, sed laoreet lorem volutpat nec. 
+                        Vivamus rutrum lacus est, convallis placerat diam porttitor tincidunt. 
+                        Etiam elementum auctor velit, at faucibus magna dapibus id. 
+                        Nam molestie ipsum in sem rutrum porta. Nulla facilisi. 
+                        Fusce id metus id dolor pulvinar faucibus a quis purus. 
                     </p>
                 </div>
 

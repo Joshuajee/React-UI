@@ -5,6 +5,6 @@ export enum ROUTES {
     MARKETING = "/marketing",
     BUBBLES = "/bubbles",
     PARALLAX = "/parallax",
-    STARBUCKS = "/starbucks",
+    COFFEE_SHOP = "/coffee-shop",
     CARS = "/cars"
 }

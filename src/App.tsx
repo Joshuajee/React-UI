@@ -10,6 +10,7 @@ import Marketing from './pages/marketing';
 import Bubbles from './pages/bubbles';
 import ParallaxPage from './pages/parallax';
 import CoffeeShop from './pages/coffee-shop';
+import CarsPage from './pages/car-platform';
 
 AOS.init({ duration: 1000 });
 
@@ -25,6 +26,7 @@ function App() {
           <Route path={ROUTES.BUBBLES} element={<Bubbles />} />
           <Route path={ROUTES.PARALLAX} element={<ParallaxPage />} />
           <Route path={ROUTES.COFFEE_SHOP} element={<CoffeeShop />} />
+          <Route path={ROUTES.CARS} element={<CarsPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

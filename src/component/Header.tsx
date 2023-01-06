@@ -29,16 +29,18 @@ const Header = () => {
             </div>
 
             { show &&
-                <ul className={styles.menu_items}>
+                <ul className={styles.menu_items} data-aos="slide-down">
                     {
                         menuItems.map((item, index) => {
                             return (
-                                <Link 
-                                    className={`${path === item.path && styles.active}`}
-                                    key={index} onClick={() => setShow(false)}
-                                    to={item.path}> 
-                                    {item.title} 
-                                </Link>)
+                                <li>
+                                    <Link 
+                                        className={`${path === item.path && styles.active}`}
+                                        key={index} onClick={() => setShow(false)}
+                                        to={item.path}> 
+                                        {item.title} 
+                                    </Link>
+                                </li>)
                         })
                     }
                 </ul>

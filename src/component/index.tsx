@@ -1,5 +1,4 @@
 import { ReactElement } from "react"
-import Footer from "./Footer"
 import Header from "./Header"
 
 interface IProps  {
@@ -11,8 +10,7 @@ const Layout = (props: IProps) => {
     return(
         <div>
             <Header/>
-                <div>{props.children} </div>
-            <Footer />
+            <div>{props.children} </div>
         </div>
     ) 
 }

@@ -26,7 +26,7 @@ const Home = () => {
                             background="transparent"  
                             speed="1"  loop  autoplay />
                     </div>
-                    <h3 data-aos="slide-left" className={`my-5`}> <b> Instructor </b> </h3>
+                    <h3 data-aos="slide-left" className={`my-5`}> <b> Frontend </b> </h3>
                 </div>
 
             </div>

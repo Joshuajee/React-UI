@@ -29,7 +29,7 @@ const Header = () => {
             </div>
 
             { show &&
-                <ul className={styles.menu_items} data-aos="slide-down">
+                <ul className={styles.menu_items}>
                     {
                         menuItems.map((item, index) => {
                             return (
